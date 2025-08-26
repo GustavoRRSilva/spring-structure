@@ -2,13 +2,12 @@ package io.github.gustavorrsilva.arquiteturaspring.montadora;
 
 import java.awt.*;
 
-public class HonraHrv extends Carro{
+public class HondaHrv extends Carro{
 
-    public HonraHrv(String modelo) {
+    public HondaHrv(String modelo) {
         super(modelo);
         setModelo("HRV");
         setCor(Color.black);
         setMontadora(Montadora.HONDA);
-        set
     }
 }
